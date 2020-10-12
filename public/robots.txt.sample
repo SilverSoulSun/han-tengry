@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: *?*
+Disallow: /api/
+Disallow: /login
+Disallow: /logout
+Host: animalia.bio
+Sitemap: http://animalia.bio/sitemap/sitemap-index.xml

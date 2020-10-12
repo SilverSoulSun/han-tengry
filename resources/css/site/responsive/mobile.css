@@ -1,0 +1,216 @@
+
+@media (max-width : 568px) {
+ 	
+ 	.hidden-mobile {display: none !important;}
+ 	.container{ width: 90%;}
+
+
+ 	.item-animal{ width: 48%; margin: 0 4% 15px 0; }
+ 		.item-animal:nth-child(2n+1){ margin-right: 0; }
+
+ 		.item-animal .caption{  padding: 12px 10px; height: 50px;   }
+		.item-animal .caption .name{  font-size: 1.4em; margin-bottom: 2px;}
+		.item-animal .caption .scientific_name{ font-size: 1.1em;}
+
+ 		.item-animal:first-child{ width: 100%; margin-right: 0; }
+		.item-animal:first-child:before {margin-top: 124.1%; }
+		.item-animal:first-child .caption{height: 100px; padding: 60px 10px 10px;}
+
+
+
+ 	header{}
+ 		header .logo{  font-size: 2.8em;}
+ 		header .main-nav{ display: none; }
+ 		header .sub-nav{  padding: 15px 0; }
+
+ 	.mobile-paginator{width: 100%; float: left; margin: 10px 0 20px 0;}
+		.mobile-paginator a{ width: 48%; border-radius: 3px; border: 1px solid #ccc; height: 42px; line-height: 42px;  color: #777;  font-size: 1.3em;  text-align: center; }
+		.mobile-paginator a:hover{ text-decoration: none; }
+		.mobile-paginator .prev{ float: left; }
+		.mobile-paginator .next{float: right; background-color: #00C853; color: #fff; border:none;}
+
+
+ 	.page-home{}
+		.page-home .aod{ margin: 10px 0 10px;}
+		.page-home .aod:before {margin-top: 100%; }
+
+		.page-home .aod .caption{ left: 20px; bottom: 20px;}
+		.page-home .aod .caption .title{ font-size: 1.4em; }
+		.page-home .aod .caption .name{ font-size: 2.4em; }
+
+		.page-home .properties{  margin: 10px 0 20px; }
+		.page-home .properties .property{ width: 100% !important;  margin: 0 0 10px 0 !important;}
+			.page-home .properties .property:before {margin-top: 50% !important; }
+
+			.page-home .properties .property .caption{ width: 50%; left: 20px; bottom: 20px;  }
+				.page-home .properties .property .caption .title{ font-size: 2em;  }
+				.page-home .properties .property .caption .count{ font-size: 1.2em;  }
+
+	.page-catalog{}
+		.page-catalog .page-cover{  margin: -60px 0 20px;  }
+		.page-catalog .page-cover .icover{ }
+		.page-catalog .page-cover .overlay { padding: 80px 0 80px;  width: 100%; min-height: 300px; }
+
+		.page-catalog .page-cover {  color: #fff;  }
+		.page-catalog .page-cover .title, .page-catalog .page-cover .description{ }
+		.page-catalog .page-cover .title{ width: 100%; }
+			.page-catalog .page-cover .title .page-type{font-size: 1em; }
+			.page-catalog .page-cover .title h1{ font-size: 4.2em; }
+			.page-catalog .page-cover .title h2{  font-size: 1.8em; margin-top: 5px;}
+
+		.page-catalog .page-cover .description{ display: none;  }
+
+
+	.page-animal{}
+
+		.page-animal .head{  margin: 10px 0 0;}
+		.page-animal .head h1{ font-size: 3.6em;}
+		.page-animal .head .names{ font-size: 1.2em; }
+
+		.page-animal .head .share{ display: none;}
+
+		.page-animal .nav{ display: none; }
+			.page-animal .nav li{}
+			.page-animal .nav a{  }
+
+		.page-animal .title-photos{margin: 10px 0 10px;}
+		.page-animal .title-photos:before {display: block;content:'';margin-top: 200%; }
+
+		.page-animal .title-photos .cover{ width: 100%; height: 50%;  }
+		.page-animal .title-photos .photos{ width: 100%; height: 50%; margin-top: 100%; border-top: 2px solid #fff;  }
+			.page-animal .title-photos .photo{ border-right: 1px solid #fff; border-left: 1px solid #fff;  width: 50%; }
+			.page-animal .title-photos .photo:nth-child(2), .page-animal .title-photos .photo:nth-child(4){ border-right: 0; }
+			.page-animal .title-photos .photo:nth-child(1), .page-animal .title-photos .photo:nth-child(3){ border-left: 0; }
+			.page-animal .title-photos .photo:nth-child(3), .page-animal .title-photos .photo:nth-child(4){ border-top: 2px solid #fff; }
+			.page-animal .title-photos .photo:before { margin-top: 100%; }
+			.page-animal .title-photos  img{  width: 100%; }
+
+			.page-animal .title-photos .more-photos{ width: 100%; height: 100%;}
+				.page-animal .title-photos .more-photos .total .symbol{font-size: 4.0em;}
+				.page-animal .title-photos .more-photos .total .num{font-size: 4.0em;}
+
+		.page-animal .block{ padding: 20px 0; float: left; width: 100%; }
+			.page-animal .block-center{ width: 100%; padding: 20px 0%; }
+
+		.page-animal .block-content{  }
+			.page-animal .block-content-full{  width: 100%; }
+			.page-animal .block-content-left{  width: 100%; }
+			.page-animal .block-content-right{  width: 100%; }
+			.page-animal .block-content-2-3 {width: 100%;}
+			.page-animal .block-content-1-3 {width: 100%;}
+			.page-animal .block-content-center{ margin: 0;  }
+
+
+		.page-animal .block-content-photos{ margin-top: 20px; }
+			.page-animal .block-content-photos .photo{ width: calc(50% - 1px);  max-height: 300px;   }
+			.page-animal .block-content-photos .photo:nth-child(1){ width: 100%; margin-bottom: 2px;}
+			.page-animal .block-content-photos .photo:nth-child(2){ margin-right: 2px; }
+
+
+		.page-animal .lists{ width: 100%; float: left; font-size: 1.6em; margin: 10px 0 0 0; }
+			.page-animal .list{ float: left; width: 100%; margin-bottom: 10px; }
+			.page-animal .list h4{ width: 40%; float: left; color:#888; }
+			.page-animal .list .value{ width: 60%; float: left; }
+
+
+		.page-animal .text{font-size: 1.6em; line-height: 165%; /*font-weight: 300;*/ }	
+		.page-animal h2{margin: 0px 0 20px; font-size: 3.2em; }
+		.page-animal h3{font-size: 2em;}
+
+		.page-animal .taxonomies{ width: 100%; float: right; margin-top: 20px; }
+			.page-animal .taxonomies ul{}
+			.page-animal .taxonomies li{ font-size: 1.6em; width: 100%; padding-bottom: 10px; }
+			.page-animal .taxonomies .type{ display: inline-block; width: 30%; color: #888;  }
+			.page-animal .taxonomies a{display: inline-block; }
+
+		.page-animal .characteristics{ padding-top: 20px; }
+		.page-animal .characteristic{ width: 47.5%; float: left; margin-bottom: 30px; margin-right: 5%; }
+			.page-animal .characteristic:nth-child(2n){ margin-right: 0; }
+			.page-animal .characteristic:nth-child(3n){ margin-right: 5%; }
+			.page-animal .characteristic h3{ letter-spacing: 2px; font-size: 1em;   margin-top: 5px;   }
+			.page-animal .characteristic .value{  font-size: 2.2em; }
+				.page-animal .characteristic .value span{ font-size: 1.5em; }
+
+		.page-animal .disrtibution{ padding-top: 0px; }
+			.page-animal .habitat-map{display: none; }
+
+			.page-animal .disrtibution .properties{}
+				.page-animal .disrtibution .property{width: 100%; float: left; margin: 10px 0 0 0;}
+				.page-animal .disrtibution .property h3{ margin-top: 10px;}
+				.page-animal .disrtibution .property li{  width: 46%; margin: 10px 4% 0 0;}
+				.page-animal .disrtibution .property li a{  font-size: 1.3em; }
+				
+
+
+		.page-animal .lifestyle .properties{ width: 100%; float: left; margin-top: 10px; }
+
+			
+		.page-animal .nutrition{}
+			.page-animal .nutrition-links{ float: left; width: 30%; margin-left: 5%; }
+
+				.page-animal .nutrition-links .text{ width: 100%; float: left; margin-top: 20px;}
+				.page-animal .nutrition-links p{  }
+
+				.page-animal .nutrition-links .animal:nth-child(2n) a{ margin-right: 0; }
+				.page-animal .nutrition-links .animal a{ position: relative; width: 47.5%; border-radius: 10px; overflow: hidden; float: left; margin: 20px 5% 0 0; background-color: #000; }
+				.page-animal .nutrition-links .animal a:before {display: block;content:'';margin-top: 100%; }
+				.page-animal .nutrition-links .animal .cover{ background-position: center; height: 80%; width: 100%; float: left; position: absolute; background-size: cover; top: 0;  }
+				.page-animal .nutrition-links .animal .caption{ position: absolute; bottom: 0; box-sizing: border-box; width: 100%;  padding: 8px 10px; text-transform: uppercase; font-size: 1.4em;  color: #fff; font-family: 'Rubik', sans-serif;  font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+				.page-animal .nutrition-links-full{ width: 65%; }
+				.page-animal .nutrition-links-full .animal:nth-child(2n) a{ margin-right: 2% !important; }
+				.page-animal .nutrition-links-full .animal:nth-child(4n) a{margin-right: 0 !important;}
+				.page-animal .nutrition-links-full .animal a{width: 23.5%; margin-right: 2%;}
+
+			.page-animal .nutrition .badge{ width: 80%; margin-top: 20px;  padding: 20px 30px; }
+				.page-animal .nutrition .badge h4{ color: #888; margin-bottom: 10px; font-size: 1.2em; font-family: 'Rubik', sans-serif; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+				.page-animal .nutrition .badge li{ margin-top: 5px; }
+				.page-animal .nutrition .badge a{ font-size: 2.4em; }
+
+			.page-animal .nutrition .text p{ margin-top: 10px; }
+			.page-animal .nutrition .text b{ font-weight: bold; }
+
+			.page-animal .nutrition.block-center{}
+				.page-animal .nutrition.block-center .text{width: 100%; float: left;}
+				.page-animal .nutrition.block-center .badge{ width: 100%; float: right; }
+
+		.page-animal .mating{}	
+			.page-animal .mating .characteristics{ width: 100%; float: left; padding: 0; margin-top: 20px; }
+			.page-animal .mating .characteristic{     width: 47.5%;}
+
+
+		.page-animal  .population{/*padding-top: 10px;*/}
+			.page-animal  .population .block-content{  }
+			.page-animal  .population h3{ margin: 20px 0 10px; }
+			.page-animal  .population .title{ width: 100%; margin-bottom: 20px; }
+				.page-animal  .population .title h4{width: 100%; margin-bottom: 5px; font-size: 1em; }
+				.page-animal  .population .title .value{font-size: 2em;}
+
+			.page-animal  .population .statuses{  margin-left: 0px; float: left; }
+				.page-animal  .population .status{ height: 24px; font-size: 1em; line-height: 26px; width: 24px; margin-right: 2px;  }
+
+		.page-animal .facts{counter-reset: facts;}
+			.page-animal .facts ol, .page-animal .facts ul{  }
+			.page-animal .facts li{ width: 100%; margin-bottom: 20px; }
+
+			.page-animal .facts ol li{counter-increment: facts; padding-left: 40px; box-sizing: border-box; }
+			.page-animal .facts ol li:before {margin-left: -40px; margin-top: 6px; width: 30px; font-size: 1.8em;}
+
+		.page-animal .references{ padding-top: 20px; counter-reset: references; }
+			.page-animal .references ol li{counter-increment: references; margin-bottom: 10px; width: 100%; float: left; padding-left: 30px; box-sizing: border-box; font-size: 1.6em;}
+			.page-animal .references ol li:before {margin-left: -30px;}
+			.page-animal .references .name{  }
+			.page-animal .references a{ font-size: 0.8em; }
+
+	
+
+	#gallery{ }
+	#gallery .image img{ height: auto; max-width: 100%; max-height: 100%; margin: auto; position:absolute; top:0; bottom:0; left:0; right:0; display: block;}
+	#gallery .btn-close-gallery{ font-size: 1.8em; padding: 15px; }
+
+	#gallery .nav-arr{ font-size: 1.8em;  padding: 15px; }
+
+	#gallery .caption{ padding: 15px;  }
+		#gallery .caption .title{ width: 100%; font-size: 1.4em; text-align: center; opacity: 0.5;}
+		#gallery .caption .meta{display: none;}
+

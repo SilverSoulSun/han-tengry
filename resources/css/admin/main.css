@@ -1,0 +1,44 @@
+
+.cropper{}
+	.cropper .navbar{ width: 25%; float: left; box-sizing: border-box; padding: 40px; }
+	.cropper .navbar select{ width: 100%; margin-bottom: 20px; }
+	.cropper .navbar .chosen-search input{ height: 22px !important; width: 100% !important; box-sizing: border-box; }
+
+	.cropper .navbar form{ width: 100%; margin-top: 60px; }
+	.cropper .navbar .ratio-btns{ width: 100%; float: left; margin: 20px 0; border:1px solid #ccc; }
+		.cropper .navbar .ratio-btns div{ width: 50%; background-color: #eee; cursor: pointer; float: left; line-height: 30px; text-align: center; font-size: 14px; font-weight: bold; }
+		.cropper .navbar .ratio-btns div.active{ background-color: #007AFF; color: #fff; }
+
+	.cropper .navbar .btn-crop-submit{ width: 100%; margin-top: 20px; display: none; }
+
+	.cropper .image{width: 70%; float: right; box-sizing: border-box; padding: 40px;}
+	.cropper .image img{ width: 100%; max-height: 650px; }
+
+
+
+
+.import{}
+	.import .navbar{ width: 25%; float: left; box-sizing: border-box; padding: 40px; }
+	.import .results{width: 70%; float: right; box-sizing: border-box; padding: 40px;}
+
+.import-properties{}
+	.import .navbar #fileuploader .ajax-file-upload{ width: 200px; line-height: 40px; background-color: #007AFF; color: #fff; text-align: center;  margin: 0 0 20px; font-size: 14px; }
+
+
+.import-photos{}
+	.import-photos .navbar{ position: fixed; }
+		.import-photos .navbar .wrapper{ width: 100%; float: left; margin-bottom: 10px; }
+		.import-photos .navbar select, .import-photos .navbar input{ width: 100%;  }
+		.import-photos .navbar .chosen-search input{ height: 22px !important; width: 100% !important; box-sizing: border-box; }
+
+		.import-photos .navbar .import-inputs{ display: none; }
+
+		.import-photos .navbar .btn{ border: none; float: left; cursor: pointer; width: 49%;  line-height: 40px; background-color: #007AFF; color: #fff; text-align: center;  margin: 20px 2% 0 0; font-size: 14px;  }
+		.import-photos .navbar .btn-import-photos{ display: none; margin-right: 0; }
+
+	.import .photos-list{  }
+		.import .photos-list .photo{ width: 24%; float: left; margin: 0 1% 20px 0; padding-bottom: 10px; border-bottom: 1px solid #ddd;  }
+			.import .photos-list .photo .image{ width: 100%; float: left; position: relative; overflow: hidden;}
+			.import .photos-list .photo .image:before {display: block;content:'';margin-top: 100%; }
+			.import .photos-list .photo .image img{ width: 100%; float: left; position: absolute; top: 0; }
+			.import .photos-list .photo .name{ width: 100%; float: left; height: 20px; overflow: hidden; }

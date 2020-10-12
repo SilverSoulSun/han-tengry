@@ -1,0 +1,136 @@
+.content{ width: 100%; float: left; }
+.container{ width: 96%;  max-width: 1200px; margin-left: auto; margin-right: auto;   position: relative;}
+
+.admin-panel{ width: 100%; float: left; height: 40px; background-color: #222; position: fixed; z-index: 9000; }
+	.admin-panel-padder{ width: 100%; float: left; height: 40px; }
+	.admin-panel .admin{ float: left; margin-right: 40px; font-weight: bold; font-size: 1.8em; color: #aaa; line-height: 40px; }
+	.admin-panel a:hover{ color: #fff !important; }
+	.admin-panel ul{ float: left; }
+		.admin-panel ul li{ display: inline-block; color: #666; line-height: 40px; font-size: 0.7em; }
+		.admin-panel ul a{  color: #aaa; margin-right: 20px;}
+		.admin-panel ul span{margin: 0 5px 0 10px;}
+
+.b-admin section.s-char {
+	padding-top: 140px;
+}
+		/*
+header{width: 100%; float: left; height: 60px; position: relative; z-index: 2000;}
+
+	header .logo{ font-family: 'Rubik', sans-serif;  font-weight: 600; font-size: 3em; line-height: 60px; color: #00C853; float: left; text-transform: uppercase; }
+	header .slogan{ font-family: 'Rubik', sans-serif;  font-weight: 200; font-size: 1em; line-height: 20px; color: #00C853; float: left; clear: left; text-transform: uppercase; }
+	header .main-nav{ width: 60%; margin: 0 20%; position: absolute;  text-align: center; height: 20px; padding: 20px 0; }
+		header .main-nav li{ display: inline-block; margin: 0 5px; }
+		header .main-nav a{ line-height: 20px; font-size: 1.4em; color: #777; text-align: center;}
+			header .main-nav a:hover{ color: #222; }
+
+	header .sub-nav{  float: right; height: 20px; padding: 20px 0; }
+		header .sub-nav li{ display: inline-block; margin: 0 0 0 10px; }
+		header .sub-nav a{ line-height: 20px; color: #777; }
+			header .sub-nav a i{ font-size: 2.4em; }
+			header .sub-nav a:hover{ color: #222; }
+
+ header {
+	font-size: 62.5%
+}
+
+header .logo span {
+	color: #00c853;
+	font-family: Rubik, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 400;
+	line-height: 1
+}
+
+header .main-nav {
+	padding-top: 30px
+}
+
+header .main-nav li {
+	padding-left: 30px;
+	position: relative
+}
+
+header .main-nav li::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: url(../img/mammals.png) no-repeat center;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+header .main-nav li:nth-child(2)::before {
+	background: url(../img/reptiles.png) no-repeat center
+}
+
+header .main-nav li:nth-child(3)::before {
+	background: url(../img/birds.png) no-repeat center
+}
+*/
+
+
+.page-breadcrumbs{ width: 100%; float: left; margin: 0px 0 0px; position: relative; z-index: 100; }
+.breadcrumbs{ display: inline-block;  }
+  .breadcrumbs li{ display: inline-block;}
+  .breadcrumbs a, .breadcrumbs em{ display: inline-block; font-size: 1.2em; color: #888; font-style: normal; }
+  .breadcrumbs>*:before {content: "/"; color: #ccc; margin: 0 15px; position: relative; top: 1px; font-size: 1.2em;}
+  .breadcrumbs>*:first-child:before { content: " "; margin: 0;}
+
+
+.paginator{ width: 100%; float: left;  margin: 0 0 40px 0;}
+  .paginator .pagination{  float: left; overflow: hidden; text-align: left;}
+  .paginator .pagination li{ display: inline-block;}
+  .paginator .pagination li a, .paginator .pagination li span{border-radius: 3px; border: 1px solid #ccc; color: #777; width: 40px; height: 40px; line-height: 40px;   float: left; font-size: 1.6em;  text-align: center; margin: 0 4px 0 0px;  }
+  .paginator .pagination li a:hover{ color: #222; text-decoration: none; border-color: #aaa; }
+  .paginator .pagination li.active span{ background: #00C853;  border-color: #00C853; color: #fff;}
+  .paginator .pagination li.disabled span{ color: #ccc; border-color: #eee;}
+
+  .paginator .pagination li:first-child a, .paginator .pagination li:last-child a{ font-size: 1.4em; line-height: 30px;  font-weight: 300; margin: 0;}
+  .paginator .pagination li:first-child{ float: left;}
+  .paginator .pagination li:last-child{ float: right;}
+
+.paginator{ display: inline-block; }
+  .paginator li, .paginator ul{ display: inline-block; }
+  .paginator li a, .paginator li span{ color: #888; margin-right: 5px; }
+  .paginator .pagination li:first-child, .paginator .pagination li:last-child{ display: none;}
+
+  .btn-load-more{ width: 100%; float: left; height: 50px;  border: 1px solid #ccc; color: #777; font-size: 1.3em; font-weight: bold; margin-bottom: 20px; }
+     .btn-load-more i{ font-size: 1.2em; margin-right: 5px; }
+    .btn-load-more:hover{color: #222; text-decoration: none; border-color: #aaa;}
+
+  #loading{ width: 100%; float: left; height: 20px; text-align: center; margin: 15px 0 55px; display: none; }
+    #loading.active{display: block !important;}
+
+    
+
+#gallery{ display: none; -webkit-animation-duration: .3s; animation-duration: .3s; position: fixed; width: 100%; height: 100%; background-color: #000; top: 0; left: 0; z-index: 5000; }
+	#gallery .loader{ display: none;  position: absolute; width: 100%; height: 100%; top: 0; left: 0;  background-image: url(/img/deer-black.gif);  background-size: auto; background-position: center; background-repeat: no-repeat;}
+	#gallery .image{ display: none;    -webkit-animation-duration: .3s; animation-duration: .3s; position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+	#gallery .image img{ height: 100%; max-height: 100%; margin: auto; position:absolute; top:0; bottom:0; left:0; right:0; display: block;}
+
+	#gallery .nav{ position: absolute; opacity: 0.3; transition: opacity .25s ease-in-out; box-sizing: border-box;  height: 80%; top: 10%; flex-direction: column; display: flex;   justify-content: center;}
+		#gallery .nav-next{ width: 80%; right: 0; align-items: center; }
+		#gallery .nav-prev{ width: 20%; left: 0;  }
+		#gallery .nav:hover{ opacity: 1; }
+
+		#gallery .nav-arr{ font-size: 2.4em; color: #fff; padding: 30px; cursor: pointer;}
+			#gallery .nav-arr-right{margin-left: auto;}
+			#gallery .nav-arr-left{}
+			
+
+	#gallery .btn-close-gallery{ opacity: 0.3; transition: opacity .25s ease-in-out; color: #fff; font-size: 2.4em; position: absolute; top: 0; right: 0; padding: 30px; cursor: pointer; }
+		#gallery .btn-close-gallery:hover{opacity: 1;}
+
+	#gallery .caption{ position: absolute; bottom: 0; width: 100%; box-sizing: border-box; padding: 30px; color: #fff; }
+		#gallery .caption .title{transform: translateZ(0); width: 50%; float: left; font-size: 2.4em;}
+			#gallery .caption .title .name{ display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; line-height: 130%;}
+			#gallery .caption .title .index{display: inline-block; opacity: 0.3;  }
+		#gallery .caption .meta{transform: translateZ(0); width: 50%; float: right; opacity: 0.5; text-align: right;}
+			#gallery .caption .meta .author{display: inline-block; width: 100%; font-size: 1.2em; margin-bottom: 5px; }
+			#gallery .caption .meta .author a{ color: #fff;}
+			#gallery .caption .meta .license{display: inline-block; width: 100%;  font-size: 1em; }
+
+footer{ width: 100%; float: left; height: 200px; }

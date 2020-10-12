@@ -1,0 +1,14 @@
+/* Large screens common styles */
+@media (min-width: 1200px) {
+
+	.hidden-desktop{ display: none !important;}
+	.hidden-desktop-tablet{ display: none !important;}
+
+	.item-animal{  width: 23.5%; margin: 0 2% 25px 0; }
+		.item-animal:nth-child(4n+1){ margin-right: 0; }
+		.item-animal:nth-child(3), .item-animal:nth-child(5){ margin-right: 0; }
+		.item-animal:nth-child(4){ margin-right: 2%; }
+
+		.item-animal:first-child{ width: 49%; margin-right: 2% !important; }
+	
+}

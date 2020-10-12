@@ -1,0 +1,34 @@
+.item_edit{overflow: scroll;}
+
+
+.cke_toolbar_separator, .cke_toolbar_break, .cke_button__about{ display: none !important; }
+
+.cke_button__image,
+.cke_button__table,
+.cke_button__horizontalrule,
+.cke_button__specialchar
+{ 
+	display: none !important; 
+}
+
+.cke_button__scayt{ display: none !important; }
+
+
+.cke_button__cut,
+.cke_button__copy,
+.cke_button__paste,
+.cke_button__pastetext,
+.cke_button__pastefromword,
+.cke_button__undo,
+.cke_button__redo
+{ 
+	display: none !important; 
+}
+
+
+
+.cke_combo__styles,
+.cke_combo__format
+{
+	display: none !important;
+}
